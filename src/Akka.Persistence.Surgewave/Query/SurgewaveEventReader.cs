@@ -5,9 +5,9 @@ using Akka.Actor;
 using Akka.Persistence.Query;
 using Akka.Persistence.Surgewave.Serialization;
 using Akka.Util;
-using KL.Surgewave.Client;
-using KL.Surgewave.Client.Abstractions;
-using KL.Surgewave.Client.Consumer;
+using Kuestenlogik.Surgewave.Client;
+using Kuestenlogik.Surgewave.Client.Abstractions;
+using Kuestenlogik.Surgewave.Client.Consumer;
 
 /// <summary>
 /// Reads events for a specific PersistenceId from Surgewave.

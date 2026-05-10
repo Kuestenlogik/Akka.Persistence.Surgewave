@@ -2,9 +2,9 @@ namespace Akka.Persistence.Surgewave.Journal;
 
 using System.Collections.Concurrent;
 using System.Text.Json;
-using KL.Surgewave.Client;
-using KL.Surgewave.Client.Abstractions;
-using KL.Surgewave.Client.Consumer;
+using Kuestenlogik.Surgewave.Client;
+using Kuestenlogik.Surgewave.Client.Abstractions;
+using Kuestenlogik.Surgewave.Client.Consumer;
 using Microsoft.Extensions.Logging;
 
 /// <summary>

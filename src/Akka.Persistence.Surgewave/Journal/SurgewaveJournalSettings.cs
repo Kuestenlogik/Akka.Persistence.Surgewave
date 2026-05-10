@@ -2,8 +2,8 @@ namespace Akka.Persistence.Surgewave.Journal;
 
 using Akka.Configuration;
 using Akka.Persistence.Surgewave.Serialization;
-using KL.Surgewave.Client.Native.Operations.Schema;
-using KL.Surgewave.Client.SchemaRegistry;
+using Kuestenlogik.Surgewave.Client.Native.Operations.Schema;
+using Kuestenlogik.Surgewave.Client.SchemaRegistry;
 
 /// <summary>
 /// Settings for SurgewaveJournal, parsed from HOCON configuration.

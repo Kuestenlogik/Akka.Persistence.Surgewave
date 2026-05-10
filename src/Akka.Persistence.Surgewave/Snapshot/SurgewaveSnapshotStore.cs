@@ -6,10 +6,10 @@ using Akka.Persistence;
 using Akka.Persistence.Snapshot;
 using Akka.Persistence.Surgewave.Journal;
 using Akka.Persistence.Surgewave.Serialization;
-using KL.Surgewave.Client;
-using KL.Surgewave.Client.Abstractions;
-using KL.Surgewave.Client.Consumer;
-using KL.Surgewave.Client.Native;
+using Kuestenlogik.Surgewave.Client;
+using Kuestenlogik.Surgewave.Client.Abstractions;
+using Kuestenlogik.Surgewave.Client.Consumer;
+using Kuestenlogik.Surgewave.Client.Native;
 
 /// <summary>
 /// SnapshotStore implementation using a Surgewave compacted topic.

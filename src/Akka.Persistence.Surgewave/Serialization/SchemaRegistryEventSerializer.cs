@@ -6,8 +6,8 @@ using System.Text.Json;
 using Akka.Persistence;
 using Akka.Persistence.Surgewave.Journal;
 using Google.Protobuf;
-using KL.Surgewave.Client.Native.Operations.Schema;
-using KL.Surgewave.Client.SchemaRegistry;
+using Kuestenlogik.Surgewave.Client.Native.Operations.Schema;
+using Kuestenlogik.Surgewave.Client.SchemaRegistry;
 
 /// <summary>
 /// Schema-aware serializer supporting both JSON and Protobuf modes.

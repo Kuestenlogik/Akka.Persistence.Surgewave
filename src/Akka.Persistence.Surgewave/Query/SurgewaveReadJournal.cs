@@ -6,7 +6,7 @@ using Akka.Persistence.Query;
 using Akka.Streams.Dsl;
 using Akka.Persistence.Surgewave.Journal;
 using Akka.Persistence.Surgewave.Serialization;
-using KL.Surgewave.Client;
+using Kuestenlogik.Surgewave.Client;
 
 /// <summary>
 /// Persistence Query implementation backed by Surgewave.

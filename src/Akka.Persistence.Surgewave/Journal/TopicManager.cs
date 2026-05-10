@@ -1,7 +1,7 @@
 namespace Akka.Persistence.Surgewave.Journal;
 
-using KL.Surgewave.Client.Native;
-using KL.Surgewave.Client.Native.Operations.Topics;
+using Kuestenlogik.Surgewave.Client.Native;
+using Kuestenlogik.Surgewave.Client.Native.Operations.Topics;
 using Microsoft.Extensions.Logging;
 
 /// <summary>

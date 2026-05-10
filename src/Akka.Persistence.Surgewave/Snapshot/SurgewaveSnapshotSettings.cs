@@ -2,7 +2,7 @@ namespace Akka.Persistence.Surgewave.Snapshot;
 
 using Akka.Configuration;
 using Akka.Persistence.Surgewave.Serialization;
-using KL.Surgewave.Client.SchemaRegistry;
+using Kuestenlogik.Surgewave.Client.SchemaRegistry;
 
 /// <summary>
 /// Settings for SurgewaveSnapshotStore, parsed from HOCON configuration.
