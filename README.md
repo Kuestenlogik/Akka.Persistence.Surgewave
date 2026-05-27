@@ -2,6 +2,16 @@
 
 Akka.NET Persistence plugin backed by [Surgewave](https://github.com/Kuestenlogik/Surgewave) — Journal, Snapshot Store, and Persistence Query with Schema Registry support.
 
+> **NuGet PackageId:** `Kuestenlogik.Akka.Persistence.Surgewave` &nbsp;·&nbsp; **Namespace:** `Akka.Persistence.Surgewave`
+>
+> The `Akka.*` prefix on nuget.org is verified-reserved by the Akka.NET team, so this package ships under the `Kuestenlogik.*` namespace prefix (Petabridge pattern). API surface and namespaces follow the Akka.Persistence convention unchanged.
+
+## Installation
+
+```bash
+dotnet add package Kuestenlogik.Akka.Persistence.Surgewave
+```
+
 ## Features
 
 - **AsyncWriteJournal** — Surgewave-backed event journal with index-based fast replay
