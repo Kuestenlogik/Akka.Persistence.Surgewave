@@ -56,8 +56,7 @@ jobs:
         # Testcontainers laufen lassen (folgt).
         run: |
           dotnet build Akka.Persistence.Surgewave.slnx -c Release --no-restore -p:Version=${{ steps.version.outputs.VERSION }}
-          dotnet test Akka.Persistence.Surgewave.slnx -c Release --no-build -v normal \
-            --filter "FullyQualifiedName!~Spec&FullyQualifiedName!~EndToEnd"
+          dotnet test Akka.Persistence.Surgewave.slnx -c Release --no-build -v normal --filter "FullyQualifiedName!~Spec&FullyQualifiedName!~EndToEnd"
 
       - name: Pack NuGet
         run: dotnet pack Akka.Persistence.Surgewave.slnx -c Release --no-build -o artifacts/packages -p:Version=${{ steps.version.outputs.VERSION }}
