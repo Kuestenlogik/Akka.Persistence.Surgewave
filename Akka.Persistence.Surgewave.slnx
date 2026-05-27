@@ -1,8 +1,8 @@
 <Solution>
   <Folder Name="/src/">
-    <Project Path="src/Akka.Persistence.Surgewave/Akka.Persistence.Surgewave.csproj" />
+    <Project Path="src/Kuestenlogik.Akka.Persistence.Surgewave/Kuestenlogik.Akka.Persistence.Surgewave.csproj" />
   </Folder>
   <Folder Name="/tests/">
-    <Project Path="tests/Akka.Persistence.Surgewave.Tests/Akka.Persistence.Surgewave.Tests.csproj" />
+    <Project Path="tests/Kuestenlogik.Akka.Persistence.Surgewave.Tests/Kuestenlogik.Akka.Persistence.Surgewave.Tests.csproj" />
   </Folder>
 </Solution>
